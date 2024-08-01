@@ -31,11 +31,11 @@ class HomeComponent extends React.Component<WithTranslation> {
                     (
                         <div>
                             <div className='text-xl md:text-5xl mb-2 hidden sm:block'>
-                                A<Typist startDelay={1000}  typingDelay={110} loop={true}  cursor={<span className='cursor'>{this.state.cursor}</span>}   >nonymous Chat Room <Typist.Delay ms={1500} /><Typist.Backspace count={18} /></Typist>
+                                A<Typist startDelay={1000}  typingDelay={110} loop={true}  cursor={<span className='cursor'>{this.state.cursor}</span>}   > PaoPao Anon Room <Typist.Delay ms={1500} /><Typist.Backspace count={18} /></Typist>
 
                             </div>
                             <div className='text-xl md:text-5xl mb-2 block sm:hidden'>
-                                Anonymous PaoPao Room
+                                PaoPao Room
                             </div>
                         </div>
                     ) : (
@@ -62,7 +62,7 @@ class HomeComponent extends React.Component<WithTranslation> {
                 </div>
             </div>
             <footer className=' text-white gap-2 fixed bottom-0 text-xs sm:text-xl h-12 w-full py-1 px-2 flex items-center justify-center text-center bg-primary'>
-               PaoPap
+               PaoPao
             </footer>
             {/* <div>
                 <HistoryCard/>
