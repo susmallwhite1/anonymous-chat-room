@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     return (
         <>
             <DefaultSeo
-                title="Anonymous Chat Room Power By Livekit And Next.js"
+                title="PaoPao Anon Chat"
                 titleTemplate="%s"
                 defaultTitle="Anonymous Chat Room Power By Livekit And Next.js"
                 description="Anonymous Chat Room Power By Livekit And Next.js"
