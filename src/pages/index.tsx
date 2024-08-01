@@ -31,7 +31,7 @@ class HomeComponent extends React.Component<WithTranslation> {
                     (
                         <div>
                             <div className='text-xl md:text-5xl mb-2 hidden sm:block'>
-                                A<Typist startDelay={1000}  typingDelay={110} loop={true}  cursor={<span className='cursor'>{this.state.cursor}</span>}   > PaoPao Anon Room <Typist.Delay ms={1500} /><Typist.Backspace count={18} /></Typist>
+                                PaoPao<Typist startDelay={1000}  typingDelay={110} loop={true}  cursor={<span className='cursor'>{this.state.cursor}</span>}   > Anon Room <Typist.Delay ms={1500} /><Typist.Backspace count={18} /></Typist>
 
                             </div>
                             <div className='text-xl md:text-5xl mb-2 block sm:hidden'>
