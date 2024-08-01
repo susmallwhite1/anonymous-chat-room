@@ -33,7 +33,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Anonymous Chat Room</title>
+        <title>PaoPao Room</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
