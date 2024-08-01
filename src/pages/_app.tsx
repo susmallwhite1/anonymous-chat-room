@@ -16,8 +16,8 @@ function MyApp({ Component, pageProps }: AppProps) {
             <DefaultSeo
                 title="PaoPao Anon Chat"
                 titleTemplate="%s"
-                defaultTitle="Anonymous Chat Room Power By Livekit And Next.js"
-                description="Anonymous Chat Room Power By Livekit And Next.js"
+                defaultTitle="PaoPao Anon Chat"
+                description="PaoPao Anon Chat"
                 twitter={{
                     handle: '@livekitted',
                     site: '@livekitted',
@@ -33,7 +33,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                             type: 'image/png',
                         },
                     ],
-                    site_name: 'Anonymous Chat Room',
+                    site_name: 'PaoPao Anon Chat',
                 }}
                 additionalMetaTags={[
                     {
